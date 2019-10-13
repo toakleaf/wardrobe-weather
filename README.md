@@ -89,3 +89,7 @@ Break
 ## Sunday 6:30 pm
 
 Started coding in vue app. Decided that because there are so many different SVG groups, I will break SVG up as if it were a bunch of html and componentize all of the groups so they can be loaded dynamically based on props passed into main component.
+
+## Sunday 7:15 pm
+
+Breaking up that SVG into components was incredibly repetitive and took about 45 minutes. Taking another short break now.
