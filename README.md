@@ -85,3 +85,7 @@ Back to creating SVG files from sketches while half watching some football. I'm 
 Finally finished all the artwork!!
 
 Break
+
+## Sunday 6:30 pm
+
+Started coding in vue app. Decided that because there are so many different SVG groups, I will break SVG up as if it were a bunch of html and componentize all of the groups so they can be loaded dynamically based on props passed into main component.
