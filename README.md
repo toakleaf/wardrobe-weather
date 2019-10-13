@@ -26,11 +26,15 @@ What I came up with was an idea for a "paper doll" style app that would pull tog
 
 So my wife and I sat down and made the following chart of temperatures and conditions and what she would wear in each scenario. (15 min)
 
+![weather clothing chart](/screenshots/chart.jpg?raw=true)
+
 I then commissioned her to sketch out on tracing paper each clothing item on top of a paper doll template. (1 hr)
+
+![clothing sketches](/screenshots/tracings.jpg?raw=true)
 
 While she was sketching I went and did more research on the [Open Weather API](https://openweathermap.org/appid). (15 min) And then fired up a github repo and initiated a new vue project for this. (15 min) I contemplated creating the project in react or svelte, and I might still create versions of it in those later, but this particular project is for a vue shop, so I might as well do as the Romans here.
 
-My final act of the night was to sit down and start writing this readme. I tend to take way too much pride in my writing and so it ended up being my lengthiest contribution of the night. (45 min).
+My final act of the night was to sit down and start writing this readme. I tend to take way too much pride in my writing and so it ended up being my lengthiest contribution of the night. (1 hr).
 
 Total elapsed work time:
 
