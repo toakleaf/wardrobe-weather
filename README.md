@@ -10,11 +10,11 @@ For a job interview I was given an assignment to create a "weather widget." As I
 
 Part of the reason I've gravitated toward programming is because I am the living embodiment of DRY practices. In my day-to-day I try to avoid doing any task that might also be included in the activities brochure for an eternal damnation, and as such Sisyphus's plight is never far from mind. Therefore, whenever confronted with mundane work I have a sometimes regrettable habit of trying to wring out a drop of dignity in purpose where there might be precious little. Sometimes it leads nowhere and I end up just pushing that same rock up the hill as everyone else. Other times, after asking a series of Jack Handy-esque, like "what is a weather widget, and why would anyone use it?" I end up in interesting places. This is one of those other times.
 
-### Monday:
+## Monday:
 
 Was given project parameters attached below. Have a busy week planned, so I informed recipient that I won't be completing project until weekend. Will use time to mull over ideas that could make this more interesting than surface requirements. For this particular project it should be easy enough to scale back later and revert to status quo concept.
 
-### Saturday 9:30 pm:
+## Saturday 9:30 pm:
 
 Wow this weeks sucked. Anyways, have a bit of time now to spend thinking about this and getting organized. My basic concept for this project is drawn on two primary inspirations:
 
@@ -42,7 +42,9 @@ Me: 1.5 hrs
 
 Wife: 1 hr
 
-### Sunday 8:00 am:
+## Sunday 8:00 am:
+
+I wake up and begin writing by doing more writing on the readme. (45 min)
 
 I start my day by thinking a bit about architecture and trade offs. The primary trade off here is that I don't want to build my own server-side API for this project. If I were making more than a cute little demo app I would feel differently, but I'm not.
 
@@ -65,3 +67,7 @@ Please choose the proper subscription http://openweathermap.org/price"
 Another part of the project specification was to have the app populate results based on browser location, as well as manual location entry. Browser location is easy, as it merely requires a simple [Geolocation](https://www.w3schools.com/html/html5_geolocation.asp) call. However, the Open Weather API specifies two different end points for lat/long coords and city names, so that must be dealt with.
 
 Whenever possible I also like to offer live-search autocomplete drop downs to help users correct their spelling and understand their options. As the Open Weather API doesn't really have any solutions for this built in, to implement such a feature I would again need to be creating a API server to wrap the searching of their [city list](http://bulk.openweathermap.org/sample/), as it is way too much data to simply stuff in a client-side app. As it stands users will need to precisely type the city name and optionally the country code, commas separated, into a search field and then manually submit the form to make a request. I could do some regular expression matching to clean up the user input before submitting to the API, however such effort would really be better spent on an actual solution like implementing a live-search. In for a penny, in for a pound, and therefore I'm forgoing spending a single cent putting lipstick on this search issue.
+
+## Sunday 9:45
+
+Time to fire up illustrator and SVG-ify these sketches.
