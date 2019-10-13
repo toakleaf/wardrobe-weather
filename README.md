@@ -1,4 +1,4 @@
-# Weather Wardrobe
+# Wardrobe Weather
 
 Aren't all weather apps really just clothing selection apps anyways?
 
