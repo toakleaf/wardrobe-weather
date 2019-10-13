@@ -33,7 +33,9 @@ While she was sketching I went and did more research on the [Open Weather API](h
 My final act of the night was to sit down and start writing this readme. I tend to take way too much pride in my writing and so it ended up being my lengthiest contribution of the night. (45 min).
 
 Total elapsed work time:
+
 Me: 1.5 hrs
+
 Wife: 1 hr
 
 ### Sunday:
