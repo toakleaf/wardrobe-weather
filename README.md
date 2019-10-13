@@ -68,6 +68,20 @@ Another part of the project specification was to have the app populate results b
 
 Whenever possible I also like to offer live-search autocomplete drop downs to help users correct their spelling and understand their options. As the Open Weather API doesn't really have any solutions for this built in, to implement such a feature I would again need to be creating a API server to wrap the searching of their [city list](http://bulk.openweathermap.org/sample/), as it is way too much data to simply stuff in a client-side app. As it stands users will need to precisely type the city name and optionally the country code, commas separated, into a search field and then manually submit the form to make a request. I could do some regular expression matching to clean up the user input before submitting to the API, however such effort would really be better spent on an actual solution like implementing a live-search. In for a penny, in for a pound, and therefore I'm forgoing spending a single cent putting lipstick on this search issue.
 
-## Sunday 9:45
+## Sunday 9:45 am
 
 Time to fire up illustrator and SVG-ify these sketches.
+
+## Sunday 12:00 pm
+
+Break
+
+## Sunday 1:00 pm
+
+Back to creating SVG files from sketches while half watching some football. I'm having to modify the SVG tracings quite a bit to get everything to work together, but the finished artwork is looking amazing in my opinion. I also added a model, which I was originally planning to exclude, but it adds a good bit to the finished product.
+
+## Sunday 5:30 pm
+
+Finally finished all the artwork!!
+
+Break
