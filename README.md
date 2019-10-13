@@ -1,6 +1,6 @@
 # Wardrobe Weather
 
-Aren't all weather apps really just clothing selection apps anyways?
+Aren't all weather apps really just wardrobe planning apps anyways?
 
 ## The project:
 
