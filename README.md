@@ -44,7 +44,7 @@ Wife: 1 hr
 
 ## Sunday 8:00 am:
 
-I wake up and begin writing by doing more writing on the readme. (45 min)
+I wake up and begin by doing more writing on this readme. (45 min)
 
 I start my day by thinking a bit about architecture and trade offs. The primary trade off here is that I don't want to build my own server-side API for this project. If I were making more than a cute little demo app I would feel differently, but I'm not.
 
