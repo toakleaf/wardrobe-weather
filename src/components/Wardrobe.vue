@@ -88,24 +88,34 @@ export default {
     <umbrella v-if="conditions === 'Rain' || conditions === 'Drizzle' " />
     <model-body />
     <model-head />
-    <flip-flops />
-    <sandals />
-    <flats />
-    <shorts />
-    <jeans />
-    <rain-boots />
-    <winter-boots />
-    <flowy-pants />
-    <tank-top />
-    <t-shirt />
-    <sweater />
-    <mittens />
-    <cowel-scarf />
-    <rain-coat />
-    <light-scarf />
-    <winter-coat />
-    <sun-glasses />
-    <wind-hair />
-    <stocking-hat />
+    <flip-flops v-if="conditions === 'Clear' && temp >= 90" />
+    <sandals
+      v-if="(temp > 75 && temp <= 90 && conditions === 'Clear') || (temp > 75 && conditions !== 'Rain' && conditions !== 'Thunderstorm')"
+    />
+    <flats
+      v-if="temp > 40 && temp <= 75 && conditions !== 'Rain' && conditions !== 'Thunderstorm'"
+    />
+    <shorts v-if="temp > 75" />
+    <jeans v-if="temp <= 65" />
+    <rain-boots v-if="(temp > 40 && (conditions === 'Rain') || conditions === 'Thunderstorm')" />
+    <winter-boots
+      v-if="temp <= 40 && (conditions === 'Rain' || conditions === 'Thunderstorm' || conditions === 'Snow')"
+    />
+    <flowy-pants v-if="temp > 65 && temp <= 75" />
+    <tank-top v-if="(temp > 80 && conditions === 'Clear') || temp > 90" />
+    <t-shirt v-if="temp > 75 && ((temp <= 90 && conditions !== 'Clear') || temp <= 80)" />
+    <sweater
+      v-if="temp > 60 && temp <= 75 && conditions !== 'Rain' && conditions !== 'Thunderstorm' && conditions !== 'Drizzle'"
+    />
+    <mittens v-if="temp <= 40" />
+    <cowel-scarf v-if="temp <= 40" />
+    <rain-coat
+      v-if="(temp > 40 && temp <= 75) && (conditions === 'Rain' || conditions === 'Thunderstorm' || conditions === 'Drizzle')"
+    />
+    <light-scarf v-if="temp > 40 && temp <= 60" />
+    <winter-coat v-if="temp <= 40" />
+    <sun-glasses v-if="conditions === 'Clear'" />
+    <wind-hair v-if=" wind >= 15 " />
+    <stocking-hat v-if="temp <= 40" />
   </svg>
 </template>

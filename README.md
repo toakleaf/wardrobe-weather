@@ -93,3 +93,11 @@ Started coding in vue app. Decided that because there are so many different SVG 
 ## Sunday 7:15 pm
 
 Breaking up that SVG into components was incredibly repetitive and took about 45 minutes. Taking another short break now.
+
+## Sunday 7:30 pm
+
+Adding all of the conditionals into the Wardrobe.vue file so that SVG changes dynamically based on props.
+
+## Sunday 8:00 pm
+
+Dinner break.
