@@ -130,6 +130,9 @@ App is finished, just cleaning up files and adding a background transition so it
 # Total time spent on project:
 
 (while working at a leisurely pace)
+
 Artwork: 10 hrs
+
 Documentation/deployment: 2.5 hrs
+
 Coding: 5 hrs
