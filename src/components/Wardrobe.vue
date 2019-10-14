@@ -55,7 +55,7 @@ export default {
     },
     temp: {
       type: Number,
-      default: 75
+      default: 95
     },
     wind: {
       type: Number,

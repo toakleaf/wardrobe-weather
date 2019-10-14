@@ -101,3 +101,9 @@ Adding all of the conditionals into the Wardrobe.vue file so that SVG changes dy
 ## Sunday 8:00 pm
 
 Dinner break.
+
+## Sunday 9:30 pm
+
+Had to fix a few things in the artwork so background colors didn't bleed through. (20 min)
+Spent way too long getting Vue CLI's environment variables set up. Forgot that you needed to prefix everything with "VUE*APP*" (20 min)
+Hooking up all the color props also took a long time. (20 min)

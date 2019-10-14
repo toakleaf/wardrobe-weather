@@ -19,7 +19,7 @@ export default {
       <path
         fill-rule="evenodd"
         clip-rule="evenodd"
-        fill="#F7941E"
+        :fill="color"
         stroke="#000000"
         stroke-width="2"
         stroke-linecap="round"
