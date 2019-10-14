@@ -85,12 +85,14 @@ svg {
     <umbrella v-if="conditions === 'Rain' || conditions === 'Drizzle' " />
     <model-body />
     <model-head />
-    <flip-flops v-if="conditions === 'Clear' && temp >= 90" />
+    <flip-flops
+      v-if="temp >= 90 && (conditions === 'Clear' || conditions === 'Cloudy' || conditions === 'Atmosphere')"
+    />
     <sandals
-      v-if="(temp > 75 && temp <= 90 && conditions === 'Clear') || (temp > 75 && conditions === 'Rain' && conditions === 'Thunderstorm' && conditions === 'Drizzle')"
+      v-if="(temp > 75 && temp <= 90 && (conditions === 'Clear' || conditions === 'Cloudy' || conditions === 'Atmosphere'))"
     />
     <flats
-      v-if="temp > 40 && temp <= 75 && conditions !== 'Rain' && conditions !== 'Thunderstorm'"
+      v-if="(temp > 40 && temp <= 75 && conditions !== 'Rain' && conditions !== 'Thunderstorm') || (temp > 75 && (conditions === 'Rain' && conditions === 'Thunderstorm' && conditions === 'Drizzle'))"
     />
     <shorts v-if="temp > 75" />
     <jeans v-if="temp <= 65" />
