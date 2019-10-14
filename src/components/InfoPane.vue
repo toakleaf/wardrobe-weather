@@ -35,7 +35,11 @@
         font-size="5"
       >{{Math.round(wind)}} mph Wind</text>
     </svg>
-    <naked-input :value="locationString" @updateLocation="$emit('updateLocation', $event)" />
+    <p>
+      Six-hour forcast for:
+      <br />
+      <naked-input :value="locationString" @updateLocation="$emit('updateLocation', $event)" />
+    </p>
   </div>
 </template>
 

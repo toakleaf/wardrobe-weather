@@ -1,6 +1,6 @@
 <template>
-  <p>
-    <span>&#x2316;</span>
+  <span>
+    <span class="xhairs">&#x2316;</span>
     <input
       type="text"
       v-model="localValue"
@@ -10,7 +10,7 @@
       @blur="$emit('updateLocation', localValue)"
       @keyup.enter="$event.target.blur()"
     />
-  </p>
+  </span>
 </template>
 
 <script>
@@ -38,7 +38,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-p input {
+input {
   border: none;
   display: inline;
   font-family: inherit;
@@ -47,7 +47,7 @@ p input {
   text-align: center;
   background: transparent;
 }
-p span {
+.xhairs {
   font-size: 150%;
 }
 </style>
