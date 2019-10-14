@@ -86,10 +86,10 @@ svg {
     <model-body />
     <model-head />
     <flip-flops
-      v-if="temp >= 90 && (conditions === 'Clear' || conditions === 'Cloudy' || conditions === 'Atmosphere')"
+      v-if="temp >= 90 && (conditions === 'Clear' || conditions === 'Clouds' || conditions === 'Atmosphere')"
     />
     <sandals
-      v-if="(temp > 75 && temp <= 90 && (conditions === 'Clear' || conditions === 'Cloudy' || conditions === 'Atmosphere'))"
+      v-if="(temp > 75 && temp <= 90 && (conditions === 'Clear' || conditions === 'Clouds' || conditions === 'Atmosphere'))"
     />
     <flats
       v-if="(temp > 40 && temp <= 75 && conditions !== 'Rain' && conditions !== 'Thunderstorm') || (temp > 75 && (conditions === 'Rain' || conditions === 'Thunderstorm' || conditions === 'Drizzle'))"
