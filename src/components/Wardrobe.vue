@@ -66,6 +66,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+svg {
+  width: 80%;
+  height: 100%;
+}
 </style>
 
 <template>
@@ -75,9 +79,7 @@ export default {
     xmlns:xlink="http://www.w3.org/1999/xlink"
     x="0px"
     y="0px"
-    height="100vh"
     viewBox="0 0 170 500"
-    enable-background="new 0 0 170 500"
     xml:space="preserve"
   >
     <umbrella v-if="conditions === 'Rain' || conditions === 'Drizzle' " />
@@ -93,9 +95,7 @@ export default {
     <shorts v-if="temp > 75" />
     <jeans v-if="temp <= 65" />
     <rain-boots v-if="(temp > 40 && (conditions === 'Rain') || conditions === 'Thunderstorm')" />
-    <winter-boots
-      v-if="temp <= 40 && (conditions === 'Rain' || conditions === 'Thunderstorm' || conditions === 'Snow')"
-    />
+    <winter-boots v-if="temp <= 40" />
     <flowy-pants v-if="temp > 65 && temp <= 75" />
     <tank-top v-if="(temp > 80 && conditions === 'Clear') || temp > 90" />
     <t-shirt v-if="(temp <= 90 && conditions !== 'Clear') || temp <= 80" />
@@ -110,7 +110,7 @@ export default {
     <light-scarf v-if="temp > 50 && temp <= 60" />
     <winter-coat v-if="temp <= 50" />
     <sun-glasses v-if="conditions === 'Clear'" />
-    <wind-hair v-if=" wind >= 15 " />
+    <wind-hair v-if=" wind >= 10 " />
     <stocking-hat v-if="temp <= 40" />
   </svg>
 </template>

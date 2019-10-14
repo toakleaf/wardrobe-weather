@@ -115,3 +115,18 @@ Finally ready to start fetching info from the API. Data seems to be coming in ju
 ## Monday 12:15 am
 
 Everything is working. Just need to add the search bar and weather info. Going to bed and will knock it out in the AM.
+
+## Monday 9:30 am
+
+Did some styling. Began working on info pane. Should be quick now.
+
+## Monday 11:00 am
+
+App is finished, just cleaning up files and adding a background transition so it's not so jarring.
+
+# Total time spent on project:
+
+(while working at a leisurely pace)
+Artwork: 10 hrs
+Documentation/deployment: 2.5 hrs
+Coding: 5 hrs
