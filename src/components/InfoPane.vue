@@ -36,7 +36,7 @@
       >{{Math.round(wind)}} mph Wind</text>
     </svg>
     <p>
-      Six-hour forcast for:
+      Six-hour forecast for:
       <br />
       <naked-input :value="locationString" @updateLocation="$emit('updateLocation', $event)" />
     </p>
@@ -79,7 +79,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style scoped lang="scss">
 .info-pane {
   height: 100%;
   padding: 1em 0 1em 0;
