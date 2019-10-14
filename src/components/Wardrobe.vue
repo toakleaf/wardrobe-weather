@@ -87,7 +87,7 @@ svg {
     <model-head />
     <flip-flops v-if="conditions === 'Clear' && temp >= 90" />
     <sandals
-      v-if="(temp > 75 && temp <= 90 && conditions === 'Clear') || (temp > 75 && conditions !== 'Rain' && conditions !== 'Thunderstorm')"
+      v-if="(temp > 75 && temp <= 90 && conditions === 'Clear') || (temp > 75 && conditions === 'Rain' && conditions === 'Thunderstorm' && conditions === 'Drizzle')"
     />
     <flats
       v-if="temp > 40 && temp <= 75 && conditions !== 'Rain' && conditions !== 'Thunderstorm'"
@@ -95,7 +95,7 @@ svg {
     <shorts v-if="temp > 75" />
     <jeans v-if="temp <= 65" />
     <rain-boots
-      v-if="(temp > 40 && temp <= 75 && (conditions === 'Rain') || conditions === 'Thunderstorm')"
+      v-if="(temp > 40 && temp <= 75 && (conditions === 'Rain') || conditions === 'Thunderstorm' || conditions === 'Drizzle')"
     />
     <winter-boots v-if="temp <= 40" />
     <flowy-pants v-if="temp > 65 && temp <= 75" />
