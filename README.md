@@ -2,6 +2,9 @@
 
 Aren't all weather apps really just wardrobe planning apps anyways?
 
+[Live Demo!](https://weather-wardrobe.netlify.com/)
+![screenshot](/screenshots/screenshot.jpg?raw=true)
+
 ## My process
 
 For a job interview I was given an assignment to create a "weather widget." As I'm currently building out a portfolio, I thought it might be neat to give a blow-by-blow accounting of my development process on this simple little app, along with the elapsed time to perform each task. That's the goal anyways, we'll see how it turns out in the end.
