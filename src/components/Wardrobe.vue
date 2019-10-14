@@ -94,7 +94,9 @@ svg {
     />
     <shorts v-if="temp > 75" />
     <jeans v-if="temp <= 65" />
-    <rain-boots v-if="(temp > 40 && (conditions === 'Rain') || conditions === 'Thunderstorm')" />
+    <rain-boots
+      v-if="(temp > 40 && temp <= 75 && (conditions === 'Rain') || conditions === 'Thunderstorm')"
+    />
     <winter-boots v-if="temp <= 40" />
     <flowy-pants v-if="temp > 65 && temp <= 75" />
     <tank-top v-if="(temp > 80 && conditions === 'Clear') || temp > 90" />
