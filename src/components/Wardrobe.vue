@@ -92,7 +92,7 @@ svg {
       v-if="(temp > 75 && temp <= 90 && (conditions === 'Clear' || conditions === 'Cloudy' || conditions === 'Atmosphere'))"
     />
     <flats
-      v-if="(temp > 40 && temp <= 75 && conditions !== 'Rain' && conditions !== 'Thunderstorm') || (temp > 75 && (conditions === 'Rain' && conditions === 'Thunderstorm' && conditions === 'Drizzle'))"
+      v-if="(temp > 40 && temp <= 75 && conditions !== 'Rain' && conditions !== 'Thunderstorm') || (temp > 75 && (conditions === 'Rain' || conditions === 'Thunderstorm' || conditions === 'Drizzle'))"
     />
     <shorts v-if="temp > 75" />
     <jeans v-if="temp <= 65" />
