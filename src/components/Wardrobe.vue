@@ -49,10 +49,6 @@ export default {
     WinterCoat
   },
   props: {
-    time: {
-      type: Number,
-      default: Date.now()
-    },
     temp: {
       type: Number,
       default: 95
@@ -79,8 +75,7 @@ export default {
     xmlns:xlink="http://www.w3.org/1999/xlink"
     x="0px"
     y="0px"
-    width="170px"
-    height="500px"
+    height="100vh"
     viewBox="0 0 170 500"
     enable-background="new 0 0 170 500"
     xml:space="preserve"
@@ -103,17 +98,17 @@ export default {
     />
     <flowy-pants v-if="temp > 65 && temp <= 75" />
     <tank-top v-if="(temp > 80 && conditions === 'Clear') || temp > 90" />
-    <t-shirt v-if="temp > 75 && ((temp <= 90 && conditions !== 'Clear') || temp <= 80)" />
+    <t-shirt v-if="(temp <= 90 && conditions !== 'Clear') || temp <= 80" />
     <sweater
-      v-if="temp > 60 && temp <= 75 && conditions !== 'Rain' && conditions !== 'Thunderstorm' && conditions !== 'Drizzle'"
+      v-if="temp > 50 && temp <= 75 && conditions !== 'Rain' && conditions !== 'Thunderstorm' && conditions !== 'Drizzle'"
     />
     <mittens v-if="temp <= 40" />
-    <cowel-scarf v-if="temp <= 40" />
+    <cowel-scarf v-if="temp <= 50" />
     <rain-coat
       v-if="(temp > 40 && temp <= 75) && (conditions === 'Rain' || conditions === 'Thunderstorm' || conditions === 'Drizzle')"
     />
-    <light-scarf v-if="temp > 40 && temp <= 60" />
-    <winter-coat v-if="temp <= 40" />
+    <light-scarf v-if="temp > 50 && temp <= 60" />
+    <winter-coat v-if="temp <= 50" />
     <sun-glasses v-if="conditions === 'Clear'" />
     <wind-hair v-if=" wind >= 15 " />
     <stocking-hat v-if="temp <= 40" />

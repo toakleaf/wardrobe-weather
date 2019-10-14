@@ -107,3 +107,11 @@ Dinner break.
 Had to fix a few things in the artwork so background colors didn't bleed through. (20 min)
 Spent way too long getting Vue CLI's environment variables set up. Forgot that you needed to prefix everything with "VUE*APP*" (20 min)
 Hooking up all the color props also took a long time. (20 min)
+
+## Sunday 10:45 pm
+
+Finally ready to start fetching info from the API. Data seems to be coming in just fine. Loads weather data perfectly based on browser Geolocation. Wrote some quick scripts to process it so that forecast is averaged over 6 hours, which I thought best for this use case. I've also been continually fixing some bugs with the artwork which has taken some additional time.
+
+## Monday 12:15 am
+
+Everything is working. Just need to add the search bar and weather info. Going to bed and will knock it out in the AM.
